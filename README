@@ -1,0 +1,7 @@
+Reference: https://www.youtube.com/watch?v=fvcdcJMem-0
+
+touch NEWS README AUTHORS ChangeLog
+autoreconf --installautoreconf --install
+./configure
+make
+git clean -fd ---> removed untracked files
