@@ -3,12 +3,12 @@ Reference: https://www.youtube.com/watch?v=fvcdcJMem-0
 ===> Modify the file in the cofigure.ac ===> AC_INIT([hello], 1.0)
 ===> Modify the Makefile.am file ===> pv_bin_***
 
-    touch NEWS README AUTHORS ChangeLog
+    => touch NEWS README AUTHORS ChangeLog
     
-    autoreconf --install
+    => autoreconf --install
     
-    ./configure
+    => ./configure
     
-    make
+    => make
     
-    git clean -fd ---> removed untracked files
+    => git clean -fd ---> removed untracked files
