@@ -4,7 +4,7 @@ Reference: https://www.youtube.com/watch?v=fvcdcJMem-0
 ===> Modify the Makefile.am file ===> pv_bin_***
 
 touch NEWS README AUTHORS ChangeLog
-autoreconf --installautoreconf --install
+autoreconf --install
 ./configure
 make
 git clean -fd ---> removed untracked files
